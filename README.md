@@ -40,6 +40,11 @@ To create a secure VPC environment in AWS using Terraform where an EC2 instance 
 
 ![Resource-list](https://github.com/SirDominique/terra.tf/assets/142616656/747630d5-58e5-4f12-a661-37e8a4ffadc9)
 
+## Cloud Architecture
+
+![Cloud Architecture drawio](https://github.com/SirDominique/JOMACS-terraform-finalProject/assets/142616656/1b0ba992-759b-45a5-8634-486c06aa6cc3)
+
+
 ## How to Deploy the Infrastructure
  ### In Your Local Environment
 1.	Fork or clone the repository to your local environment.
