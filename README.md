@@ -17,7 +17,7 @@ To create a secure VPC environment in AWS using Terraform where an EC2 instance 
 4. The YAML file actions contains the workflow definitions for actions.Yaml.
 5. The modules directory contains two subdirectories, vpc and ec2. All of the configuration files required to provision the resources are contained in these two modules. The following files are included: vpc.tf, ec2.tf, variable.tf, store.tf, data.tf, output.tf, providers.tf, and script.sh.
 
-   ![Terraform-Structure](https://github.com/SirDominique/terra.tf/assets/142616656/e68862c6-73a7-45d2-8298-2ccc45cf944c)
+   ![Terraform-Structure](https://github.com/SirDominique/JOMACS-terraform-finalProject/assets/142616656/3d0765d1-1c38-4a45-83a3-0235ca8accbb)
 
    
 ## Resources that will be deployed (include but are limited to:)
@@ -38,7 +38,8 @@ To create a secure VPC environment in AWS using Terraform where an EC2 instance 
 15.	SSM Parameter Resources
 16.	EC2 Instance
 
-![Resource-list](https://github.com/SirDominique/terra.tf/assets/142616656/747630d5-58e5-4f12-a661-37e8a4ffadc9)
+![Resource-list](https://github.com/SirDominique/JOMACS-terraform-finalProject/assets/142616656/0fecd18f-646a-4a52-9245-3a4883387bb4)
+
 
 ## Cloud Architecture
 
@@ -59,7 +60,8 @@ To create a secure VPC environment in AWS using Terraform where an EC2 instance 
 8.	To access the nginx page via the load balancer copy and paste the load balancer dns name that is outputed after your resources have been created and are running into your browser address bar and hit enter.
 9.	As shown in the screenshot below, your browser will show a successful configuration **Congratulating you for installing Nginx**.
 
-    ![Nginix-setup](https://github.com/SirDominique/terra.tf/assets/142616656/3359e403-c651-4696-b4e9-b038a91e2d43)
+    ![Nginix-setup](https://github.com/SirDominique/JOMACS-terraform-finalProject/assets/142616656/bd277e52-77ca-4a94-8e1c-04f5e782b6f7)
+
 
 
 ### CI/CD - Deploying via GitHub Actions (Automation)
